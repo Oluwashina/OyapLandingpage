@@ -63,29 +63,19 @@ body{
     /* color: #fff; */
     background-color: #152238;
     background-image: url('./images/farm.png');
+    /* background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url(./images/farm.png); */
     background-size: cover;
     background-position:  center;
 }
-/* .hero-area:before {
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url(../images/hero.jpg);
-    background-size: cover;
-    background-position: center;
-    opacity: .3;
-} */
+
 
 /* about section */
 .heading-circle {
     width: 17px;
     height: 17px;
     display: block;
-    border-top: 3px solid #ff6d3f;
-    border-left: 3px solid #ff6d3f;
+    border-top: 3px solid #ED891E;
+    border-left: 3px solid #ED891E;
     position: relative;
     margin-bottom: 20px;
 }
@@ -96,7 +86,7 @@ body{
     left: 3px;
     width: 5px;
     height: 5px;
-    background-color: #ff6d3f;
+    background-color: #ED891E;
 }
 
 
@@ -128,7 +118,7 @@ body{
 }
 .years_title{
     position: relative;
-    color: #ff6d3f;
+    color: #ED891E;
     font-size: 18px;
     font-weight: 500;
     padding-left: 60px;
@@ -137,7 +127,7 @@ body{
     line-height: 28px;
 }
 .years_time{
-    color: #ff6d3f;
+    color: #ED891E;
     font-weight: 700;
     font-size: 62px;
     position: absolute;
@@ -162,7 +152,6 @@ body{
 .fact_icon{
     font-size: 50px;
     text-align: center;
-    color: #062440;
 }
 .fact_number{
     font-size: 50px;
@@ -237,7 +226,7 @@ body{
     fill: #ffffff;
     color: #ffffff;
     font-weight: bold;
-    background-color: #ff6d3f;
+    background-color: #ED891E;
     border-radius: 10px 10px 10px 10px;
     padding: 25px 30px 25px 30px; 
     transition: all 0.5s ;
@@ -276,7 +265,7 @@ body{
     left: 0;
     width: 15px;
     height: 4px;
-    background-color: #ff6d3f;
+    background-color: #ED891E;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px;
@@ -302,7 +291,7 @@ body{
     font-weight: 400;
 }
 .footer-link li a:hover{
-    color: #ff6d3f;
+    color: #ED891E;
 }
 .footer-meta{
     font-size: 18px;
