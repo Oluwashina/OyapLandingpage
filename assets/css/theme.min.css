@@ -4,7 +4,7 @@
   Author:    ThemeHt
 ------------------------------------------------ */
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body { font-family: 'Fira Sans', sans-serif; font-style: normal; font-size: 1rem; font-weight: 400; line-height: 1.5; color: #1d1d33; overflow-x: hidden;}
 .page-wrapper { overflow-x: hidden; }
@@ -158,9 +158,9 @@ Shadow
 /* ------------------------
   Header
 ------------------------*/
-.site-header.navbar-dark .navbar-nav .nav-link { color: #ffffff; }
+.site-header.navbar-dark .navbar-nav .nav-link { color: #000000; }
 .site-header.navbar-dark .navbar-nav .nav-link:focus, .site-header.navbar-dark .navbar-nav .nav-link:hover {
-	 color: #ff6d3f; 
+	 color: #ED891E !important; 
 	}
 #header-wrap { padding: 10px 0; position: relative; }
 #header-wrap.fixed-header { padding: 5px 0; position: fixed !important; top: 0; left: 0; width: 100%; z-index: 999 !important; background: #ffffff !important; animation: smoothScroll 1s forwards; }
@@ -172,12 +172,12 @@ Shadow
 .navbar-brand { margin-right: 0; }
 header .navbar-nav .nav-item { margin: 0 15px }
 .navbar-nav .nav-link { font-weight: 500; padding: 0 !important; border-radius: 0; text-transform: capitalize; position: relative; }
-.navbar-dark #header-wrap.fixed-header { background: #152238 !important }
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .show > .nav-link, .dropdown-item:focus, .dropdown-item:hover { color: #1360ef; }
+.navbar-dark #header-wrap.fixed-header { background: #fff !important }
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .show > .nav-link, .dropdown-item:focus, .dropdown-item:hover { color: #ED891E; }
 
 .dropdown-item:focus, .dropdown-item:hover{background: #1360ef; color: #ffffff;}
-.navbar-dark .navbar-nav .nav-link {color: rgba(255,255,255,.8);}
-.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {color: rgba(255,255,255,1);}
+.navbar-dark .navbar-nav .nav-link {color:#000000}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {color: #000000;}
 .dropdown-submenu { position: relative; }
 .dropdown-submenu a::after { transform: translateY(-50%) rotate(-90deg); position: absolute; right: 1.5rem; top: 50%; }
 .dropdown-submenu .dropdown-menu { top: 0; left: 100%; margin-left: .1rem; margin-right: .1rem; margin-top: 0 !important;}
@@ -198,7 +198,7 @@ header .navbar-nav .nav-item { margin: 0 15px }
 .navbar-collapse { border-radius: 7px; background: #ffffff; max-height: 400px; left: 0; padding: 10px; position: absolute; z-index: 99; top: 50px; width: 100%; overflow: auto; border: medium none; -webkit-box-shadow: 0 10px 55px 5px rgba(137, 173, 255, .15); -moz-box-shadow: 0 10px 55px 5px rgba(137, 173, 255, .15); box-shadow: 0 10px 55px 5px rgba(137, 173, 255, .15); }
 .navbar-nav .dropdown-toggle::after { position: absolute; top: 50%; right: 0; margin: -.1rem 0.5em 0 0; }
 .site-header.navbar-dark .navbar-nav .nav-link{color: rgba(0,0,0,.5)}
-.site-header.navbar-dark .navbar-nav .nav-link.active, .site-header.navbar-dark .navbar-nav .nav-link:focus, .site-header.navbar-dark .navbar-nav .nav-link:hover{ color: #ff6d3f; }
+.site-header.navbar-dark .navbar-nav .nav-link.active, .site-header.navbar-dark .navbar-nav .nav-link:focus, .site-header.navbar-dark .navbar-nav .nav-link:hover{ color: #ED891E; }
 }
 
 
