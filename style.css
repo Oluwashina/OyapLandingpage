@@ -109,6 +109,9 @@ body{
     /* background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url(./images/farm.png); */
     background-size: cover;
     background-position:  center;
+    height: 600px;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -465,5 +468,8 @@ body{
 @media (max-width: 767px) { 
     .mail-box{
         margin-top: 40px;
+    }
+    .hero-area{
+        height: auto;
     }
 }
